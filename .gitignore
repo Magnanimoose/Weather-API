@@ -1,3 +1,4 @@
 .vscode/*
 WeatherVenv
 keys.py
+__pycache__

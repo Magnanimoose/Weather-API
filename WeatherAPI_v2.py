@@ -41,7 +41,6 @@ class WeatherLoc:
         inst_city = str(input('Now choose a city within that country: '))
         var_inst.append(inst_city)
         var_inst.append(inst_country)
-        print(var_inst)
         inst_output = WeatherLoc(var_inst[0],var_inst[1])
         return inst_output.getweather(inst_output.inputquery())
 
